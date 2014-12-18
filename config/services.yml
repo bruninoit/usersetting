@@ -1,0 +1,10 @@
+services:
+bruninoit.usersetting.listener:
+class: bruninoit\usersetting\event\listener
+arguments:
+- @config
+- @user
+- %core.root_path%
+- %core.php_ext%
+tags:
+- { name: event.listener }
