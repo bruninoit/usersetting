@@ -1,0 +1,31 @@
+{
+"name": "bruninoit/usersetting",
+"type": "phpbb-extension",
+"description": "Aggiunge un modulo PCA da cui si possono gestire impostazioni degli utenti",
+"homepage": "https://github.com/bruninoit/usersetting",
+"version": "0.1.0-a1",
+"time": "2014-12-24",
+"license": "GPL-2.0",
+"authors": [
+{
+"name": "brunino",
+"email": "brunino@altervista.org",
+"homepage": "http://www.brunino.altervista.org",
+"role": "Developer"
+}
+],
+"require": {
+"php": ">=5.3"
+},
+"extra": {
+"display-name": "Users Setting",
+"soft-require": {
+"phpbb/phpbb": "3.1.*@dev"
+},
+"version-check": {
+"host": "brunino.altervista.org",
+"directory": "/version/",
+"filename": "usersetting.json"
+}
+}
+}
